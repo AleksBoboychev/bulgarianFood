@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Традиционна Българска Кухня</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/x-icon" href="assests/icon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Затвори X</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Кухня</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">История</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <!-- <div class="w3-right w3-padding-16">Mail</div> -->
+    <div class="w3-center w3-padding-16">Традиционна Българска Кухня</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="assests/meatballsChirpanski-.jpg" alt="" style="width:100%">
+      <h3>Кюфтенца по чирпански</h3>
+      <p>Това класическо българско ястие от кюфтета в богат доматен сос е автентичен деликатес от град Чирпан. Районът около града е известен с производството на много зеленчуци, така че не е изненада, че кюфтета по Чирпански използва много от тях.</p>
+      <a href="https://recepti.gotvach.bg/r-59402-%D0%9A%D1%8E%D1%84%D1%82%D0%B5%D0%BD%D1%86%D0%B0_%D0%BF%D0%BE_%D1%87%D0%B8%D1%80%D0%BF%D0%B0%D0%BD%D1%81%D0%BA%D0%B8">Рецепта</a>
+    </div>
+    <div class="w3-quarter">
+      <img src="assests/guvechGadinarski.jpg" alt="" style="width:100%">
+      <h3>Гювеч</h3>
+      <p>Тази традиционна яхния или гювеч е характерна за балканската кухня и носи името на глинения или глинен съд, в който традиционно се приготвя.</p>
+      <a href="https://recepti.gotvach.bg/r-1390-%D0%A2%D1%80%D0%B0%D0%B4%D0%B8%D1%86%D0%B8%D0%BE%D0%BD%D0%B5%D0%BD_%D0%91%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D1%81%D0%BA%D0%B8_%D0%93%D1%8E%D0%B2%D0%B5%D1%87">Рецепта</a>
+    </div>
+    <div class="w3-quarter">
+      <img src="assests/tarator.jpg" alt="" style="width:100%">
+      <h3>Таратор</h3>
+      <p>Тараторът е вид студена млечна супа, традиционна в българската кухня, приготвяна от кисело мляко, вода, ситно нарязана или настъргана краставица, олио или зехтин, сол, копър и счукан, пресован или нарязан на ситно чесън, които се смесват и разбъркват.</p>
+      <a href="https://www.supichka.com/%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D0%B0/423/%D1%82%D0%B0%D1%80%D0%B0%D1%82%D0%BE%D1%80-%D0%BF%D1%8A%D0%BB%D0%BD%D0%B0%D1%82%D0%B0-%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D0%B0">Рецепта</a>
+    </div>
+    <div class="w3-quarter">
+      <img src="assests/bobsnadenija.jpg" alt="" style="width:100%">
+      <h3>Боб с наденица</h3>
+      <p>Бобът е семето на един от няколко рода от семейство цъфтящи растения. Колбасът е вид месен продукт, който обикновено се прави от смляно месо - често свинско, телешко или птиче - заедно със сол, подправки и други аромати.</p>
+      <a href="https://recepti.gotvach.bg/r-2558-%D0%91%D0%BE%D0%B1_%D1%81_%D0%BD%D0%B0%D0%B4%D0%B5%D0%BD%D0%B8%D1%86%D0%B0">Рецепта</a>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="assests/tripe.jpg" alt="" style="width:100%">
+      <h3>Шкембе чорба</h3>
+      <p>Шкембе чорба е супа, приготвена с шкембе. Широко се смята за лек за махмурлук.</p>
+      <a href="https://recepti.gotvach.bg/r-6056-%D0%9E%D1%80%D0%B8%D0%B3%D0%B8%D0%BD%D0%B0%D0%BB%D0%BD%D0%B0_%D1%88%D0%BA%D0%B5%D0%BC%D0%B1%D0%B5_%D1%87%D0%BE%D1%80%D0%B1%D0%B0">Рецепта</a>
+    </div>
+    <div class="w3-quarter">
+      <img src="assests/lentil.jpg" alt="" style="width:100%">
+      <h3>Леща</h3>
+      <p>Лещата (Lens culinaris) е вид едногодишно растение от семейство Бобови (Fabaceae). Тя се отглежда за семената ѝ, които се използват за храна. На височина израства до 20 – 40 cm, но при повече грижи при отглеждането ѝ стига до 70 cm. Стъблото ѝ е изправено, силно разклонено още от основата, а листата ѝ са сложни, перести.</p>
+      <a href="https://recepti.gotvach.bg/r-24087-%D0%92%D0%BA%D1%83%D1%81%D0%BD%D0%B0_%D0%BB%D0%B5%D1%89%D0%B0_%D1%8F%D1%85%D0%BD%D0%B8%D1%8F">Рецепта</a>
+    </div>
+    <div class="w3-quarter">
+      <img src="assests/Banitsa.jpg" alt="" style="width:100%">
+      <h3>Баница</h3>
+      <p>Ба̀ница е традиционно българско тестено ястие. Състои се от навити или наредени на пластове листи разточено тесто или готови кори за баница с плънка. Обикновено се пече във фурна. Използват се различни плънки – най-често сирене или извара, със или без добавка на яйца. Правят се баници и със зеленчуци, месо, плодове.</p>
+      <a href="https://recepti.gotvach.bg/r-47713-%D0%91%D0%B0%D0%BD%D0%B8%D1%86%D0%B0_%D1%81_%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%B8_%D0%BA%D0%BE%D1%80%D0%B8_%D0%B8_%D1%81%D0%B8%D1%80%D0%B5%D0%BD%D0%B5">Рецепта</a>
+    </div>
+    <div class="w3-quarter">
+      <img src="assests/shopskaSalata.jpg" alt="" style="width:100%">
+      <h3>Шопска салата</h3>
+      <p>Шопска салата е българска салата, създадена като продукт на българското държавно обединение „Балкантурист“ в средата на 1950-те години.</p>
+      <a href="https://recepti.gotvach.bg/r-3670-%D0%A8%D0%BE%D0%BF%D1%81%D0%BA%D0%B0_%D1%81%D0%B0%D0%BB%D0%B0%D1%82%D0%B0">Рецепта</a>
+    </div>
+  </div>
+
+  <!-- Тhird Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="assests/tradicionnamusaka.jfif" alt="" style="width:100%">
+      <h3>Мусака</h3>
+      <p>Мусака (от арабски musaqqaʿa са производните: гр. μουσακάς; рум. musaca; тур. musakka; арменски Մուսակա) е името на няколко различни традиционни ястия на Балканите и в Близкия изток, доста различни от българското понятие за мусака. Думата „мусака“ идва от арабското „musaqqaʿa“ – изстуден,[1] идва в България през гръцки и турски език, а по света се разпространява предимно от гръцки.</p>
+      <a href="https://bonapeti.ru/recepty/r-130036-%D0%A2%D1%80%D0%B0%D0%B4%D0%B8%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B1%D0%BE%D0%BB%D0%B3%D0%B0%D1%80%D1%81%D0%BA%D0%B0%D1%8F_%D0%BC%D1%83%D1%81%D0%B0%D0%BA%D0%B0">Рецепта</a>
+    </div>
+    <div class="w3-quarter">
+      <img src="assests/rakia.jfif" alt="" style="width:100%">
+      <h3>Ракия</h3>
+      <p>Ракѝята е традиционна силна алкохолна напитка, приготвяна на Балканите. Първоначално ракията е безцветна, като може да придобие жълтеникав до кафеникав цвят при отлежаване в бъчви или след употребата на различни добавки.</p>
+      <a href="https://recepti.gotvach.bg/rakia/">Рецепта</a>
+    </div>
+    <div class="w3-quarter">
+      <img src="assests/bulgarianYogurt.jfif" alt="" style="width:100%">
+      <h3>Кисело мляко</h3>
+      <p>Киселото мляко е млечнокисел продукт, който се получава в резултат на протичането на млечнокисела ферментация в млякото.[2] В широк мащаб то се произвежда в балканските страни, а също и в други страни по света поради добрите му вкусови, диетични и лечебни качества. Два са основните микроорганизми, които участват в процеса на ферментацията на кисело мляко – Lactobacillus bulgaricus и Streptococcus thermophilus.</p>
+      <a href="https://gotvach.bg/n-27757-%D0%9A%D0%B8%D1%81%D0%B5%D0%BB%D0%BE_%D0%BC%D0%BB%D1%8F%D0%BA%D0%BE">Рецепта</a>
+    </div>
+    <div class="w3-quarter">
+      <img src="assests/supaTopcheta.jpg" alt="" style="width:100%">
+      <h3>Супа топчета</h3>
+      <p>Супа топчета е традиционна българска супа, приготвено от омесена с подправки кайма, бульон, зеленчуци, макаронени изделия, подправки, която след като стане готова се застройва с яйце, брашно, и кисело мляко.</p>
+      <a href="https://recepti.gotvach.bg/r-58035-%D0%A1%D1%83%D0%BF%D0%B0_%D1%82%D0%BE%D0%BF%D1%87%D0%B5%D1%82%D0%B0_%D0%B7%D0%B0_%D1%86%D0%B5%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D0%B8">Рецепта</a>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <!-- <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+    </div> -->
+  </div>
+  
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>Традиционна Българска Кухня</h3><br>
+    <img src="assests/Food - About.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <h4><b>Историята</b></h4>
+      <h6><i>Със страст за истинскa, хубава храна</i></h6>
+      <p>Българската кухня споделя редица ястия с кухнята на Близкия изток, включително популярни ястия като мусака, гювеч, кюфте и баклава. Бялото саламурено сирене, подобно на фета, също е популярна съставка, използвана в салати и различни сладкиши.</p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h2><b>Връзка С Нас!</b></h2>
+      <p>Ако ви е харесал уебсайтът, не забравяйте да се свържете с нас!</p>
+      <a href="https://twitter.com/Aleks46847199"><p>Twitter</p></a>
+      <a href="https://www.facebook.com/aleks.boboychev.31"><p>Facebook</p></a>
+      <a href="https://github.com/AleksBoboychev"><p>Github</p></a>
+      <p>&#169; Авторско право 2022 Abnormal Studio</p>
+    </div>
+  
+    <!-- <div class="w3-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Lorem</span><br>
+          <span>Sed mattis nunc</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Ipsum</span><br>
+          <span>Praes tinci sed</span>
+        </li> 
+      </ul>
+    </div> -->
+
+    <!-- <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dinner</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Salmon</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">France</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Drinks</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Flavors</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cuisine</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Chicken</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dressing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fried</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fish</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Duck</span>
+      </p>
+    </div> -->
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
